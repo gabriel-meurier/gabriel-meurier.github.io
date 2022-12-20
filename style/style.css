@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "font-1";
+    src: url(../fonts/Cinzel-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: font-1, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+}
+
+body {
+    background: url(../img/bg.jpg) center/cover;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    padding-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    padding-bottom: 5px;
+}
+
+h1,
+h2,
+h3 {
+    letter-spacing: 3px;
+}
+
+h3 {
+    padding-bottom: 5px;
+}
+
+.container-app {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.app {
+    width: 80%;
+    margin: 20px auto;
+    height: 300px;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 2px rgb(51, 51, 51);
+    background: rgba(250, 250, 250, 0.4);
+}
+
+.img {
+    width: 75%;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgb(51, 51, 51);
+    margin-bottom: 10px;
+}
+
+#img1 {
+    background: url(../img/country.PNG) top/cover;
+}
+
+#img2 {
+    background: url(../img/yoga.PNG) top/cover;
+}
+
+#img3 {
+    background: url(../img/quiz.PNG) top/cover;
+}
+
+a {
+    border-bottom: 2px solid rgb(43, 43, 43);
+    transition: 0.2s;
+}
+
+a:hover {
+    color: aliceblue;
+    border-bottom: 2px solid aliceblue;
+}
